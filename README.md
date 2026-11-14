@@ -42,7 +42,7 @@ A multi-agent customer support assistant for an online shopping company. It clas
 
 An online shopping company receives hundreds of customer questions about **orders, payments, deliveries, returns and refunds**. AgentFlow automates the first line of support with three specialised agents working as a pipeline. Every answer is grounded in the company's FAQ, shows its sources, and the system refuses to guess when information is unavailable.
 
-> **Live demo:** _add your Vercel link here after deployment_
+> **Live demo:** https://agentflow-faq-assistant.vercel.app
 
 ### The assistant must
 
