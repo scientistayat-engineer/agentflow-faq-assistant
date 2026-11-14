@@ -1,0 +1,26 @@
+.split{display:grid;grid-template-columns:1.1fr 1fr;min-height:100vh}
+.hero{position:relative;overflow:hidden;color:#F4F1EA;padding:56px;display:flex;flex-direction:column;justify-content:space-between;gap:40px;background:radial-gradient(circle at 15% 8%,#33389A 0,transparent 48%),radial-gradient(circle at 95% 95%,#7A2E5C 0,transparent 42%),#14172B}
+.hero>*{position:relative;z-index:1}
+.orb{position:absolute!important;border-radius:50%;filter:blur(70px);animation:fl 8s ease-in-out infinite}
+.brand{display:flex;align-items:center;gap:12px;font:700 22px 'Space Grotesk',sans-serif}
+.hero h1{font-size:54px;line-height:1.08;max-width:540px;margin-bottom:18px}
+.grad{background:linear-gradient(90deg,#9EA3FF,#FF8A6B);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:17px;color:#C3C6D8;max-width:500px;margin:0}
+.agents{display:flex;flex-direction:column;gap:12px;max-width:520px}
+.agent{display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.08);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:16px}
+.agent b{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;color:#14172B}
+.agent small{display:block;color:#C3C6D8;font-size:14px}
+.formside{display:flex;align-items:center;justify-content:center;padding:48px 24px;background:radial-gradient(circle at 85% 8%,color-mix(in srgb,var(--brand2) 22%,transparent) 0,transparent 45%),var(--bg)}
+.formcard{width:100%;max-width:420px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:40px 36px;box-shadow:0 24px 64px rgba(20,23,43,.12)}
+.formcard h2{font-size:34px;margin-bottom:6px}
+.sub{color:var(--muted);margin:0 0 22px}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--surface2);padding:4px;border-radius:12px;margin-bottom:22px}
+.tabs button{height:40px;border:0;border-radius:9px;background:transparent;color:var(--muted);font-weight:500;cursor:pointer}
+.tabs button.on{background:var(--surface);color:var(--text);box-shadow:0 1px 4px rgba(0,0,0,.1)}
+label{display:block;font-size:14px;font-weight:500;margin:0 0 6px}
+.field{margin-bottom:16px}
+.err{background:#FDECEA;color:#8A1C12;border-radius:10px;padding:10px 12px;font-size:14px;margin-bottom:14px}
+.demo{background:var(--surface2);border-radius:10px;padding:10px 12px;font-size:13px;color:var(--muted);margin-bottom:18px}
+.or{text-align:center;color:var(--muted);font-size:13px;margin:16px 0}
+.w100{width:100%}
+@media(max-width:860px){.split{grid-template-columns:1fr}.hero{display:none}}

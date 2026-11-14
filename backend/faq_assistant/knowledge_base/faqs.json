@@ -1,0 +1,383 @@
+[
+  {
+    "id": "O-01",
+    "category": "orders",
+    "question": "How do I place an order?",
+    "answer": "Add items to your cart, go to checkout, enter your delivery address, choose a payment method and confirm. You will receive a confirmation email with your order number.",
+    "keywords": [
+      "buy",
+      "purchase",
+      "checkout",
+      "cart",
+      "order karna"
+    ]
+  },
+  {
+    "id": "O-02",
+    "category": "orders",
+    "question": "Can I cancel my order?",
+    "answer": "You can cancel an order from My Orders until it has been shipped. After it ships it cannot be cancelled, but you can return it once it is delivered.",
+    "keywords": [
+      "cancel",
+      "cancellation",
+      "order cancel"
+    ]
+  },
+  {
+    "id": "O-03",
+    "category": "orders",
+    "question": "Can I change the items in my order after placing it?",
+    "answer": "Items, size or colour can only be changed before the order is shipped. Contact support quickly with your order number.",
+    "keywords": [
+      "change",
+      "modify",
+      "edit",
+      "size",
+      "colour",
+      "badalna"
+    ]
+  },
+  {
+    "id": "O-04",
+    "category": "orders",
+    "question": "How can I track my order?",
+    "answer": "Open My Orders and select the order to see its tracking status. A tracking link is also sent by email and SMS once your order ships.",
+    "keywords": [
+      "track",
+      "tracking",
+      "status",
+      "where is my order",
+      "order kahan hai"
+    ]
+  },
+  {
+    "id": "O-05",
+    "category": "orders",
+    "question": "I did not receive an order confirmation email.",
+    "answer": "Check your spam folder first. If it is not there, look in My Orders: if the order is listed, it was placed successfully.",
+    "keywords": [
+      "confirmation",
+      "email",
+      "not received",
+      "spam"
+    ]
+  },
+  {
+    "id": "O-06",
+    "category": "orders",
+    "question": "What happens if an item is out of stock?",
+    "answer": "Out-of-stock items cannot be ordered. Use Notify Me on the product page to get an email when the item is back in stock.",
+    "keywords": [
+      "stock",
+      "available",
+      "restock",
+      "notify"
+    ]
+  },
+  {
+    "id": "P-01",
+    "category": "payments",
+    "question": "Which payment methods do you accept?",
+    "answer": "We accept credit and debit cards, bank transfer, digital wallets, and cash on delivery for eligible orders.",
+    "keywords": [
+      "payment method",
+      "card",
+      "wallet",
+      "bank transfer",
+      "pay",
+      "payment kaise",
+      "which payment methods",
+      "payment methods can I use"
+    ]
+  },
+  {
+    "id": "P-02",
+    "category": "payments",
+    "question": "Is cash on delivery available?",
+    "answer": "Cash on delivery is available for eligible orders. You will see the option at checkout if your order qualifies.",
+    "keywords": [
+      "cod",
+      "cash on delivery",
+      "cash",
+      "delivery par payment"
+    ]
+  },
+  {
+    "id": "P-03",
+    "category": "payments",
+    "question": "My payment failed but money was deducted.",
+    "answer": "If money was deducted but the order shows as unpaid, it is usually reversed automatically within 5 to 7 working days. If it is not, contact support with your transaction ID.",
+    "keywords": [
+      "failed",
+      "deducted",
+      "money cut",
+      "paisa kat gaya",
+      "payment fail"
+    ]
+  },
+  {
+    "id": "P-04",
+    "category": "payments",
+    "question": "Is it safe to pay online?",
+    "answer": "Payments are processed over encrypted connections, and we do not store your full card number.",
+    "keywords": [
+      "safe",
+      "secure",
+      "security",
+      "online payment"
+    ]
+  },
+  {
+    "id": "P-05",
+    "category": "payments",
+    "question": "Can I get an invoice or receipt?",
+    "answer": "An invoice is emailed after payment and can be downloaded from My Orders at any time.",
+    "keywords": [
+      "invoice",
+      "receipt",
+      "bill"
+    ]
+  },
+  {
+    "id": "P-06",
+    "category": "payments",
+    "question": "Why was my payment declined?",
+    "answer": "Common reasons are incorrect card details, insufficient balance or a security block by your bank. Check your details and try again, contact your bank, or use another payment method.",
+    "keywords": [
+      "declined",
+      "rejected",
+      "card not working",
+      "failed card"
+    ]
+  },
+  {
+    "id": "D-01",
+    "category": "delivery",
+    "question": "How long does delivery take?",
+    "answer": "Standard delivery usually takes 3 to 7 working days depending on your city. The estimated date is shown at checkout.",
+    "keywords": [
+      "delivery time",
+      "how long",
+      "days",
+      "shipping time",
+      "kitne din",
+      "kab"
+    ]
+  },
+  {
+    "id": "D-02",
+    "category": "delivery",
+    "question": "How much is the delivery fee?",
+    "answer": "The delivery fee is calculated at checkout based on your location and order size. Some orders qualify for free delivery.",
+    "keywords": [
+      "delivery charges",
+      "shipping fee",
+      "shipping cost",
+      "free delivery"
+    ]
+  },
+  {
+    "id": "D-03",
+    "category": "delivery",
+    "question": "My order is delayed. What should I do?",
+    "answer": "First check live tracking in My Orders. If your order is more than 2 days past the estimated date, contact support with your order number.",
+    "keywords": [
+      "delayed",
+      "late",
+      "delay",
+      "not arrived",
+      "order late"
+    ]
+  },
+  {
+    "id": "D-04",
+    "category": "delivery",
+    "question": "Do you deliver to my area?",
+    "answer": "Enter your address or postal code at checkout. If we deliver to your area, the available delivery options will appear.",
+    "keywords": [
+      "area",
+      "location",
+      "city",
+      "deliver to",
+      "coverage"
+    ]
+  },
+  {
+    "id": "D-05",
+    "category": "delivery",
+    "question": "What if I am not home when the courier arrives?",
+    "answer": "The courier will try to deliver again. If delivery keeps failing, the order is returned to us and our team will contact you.",
+    "keywords": [
+      "not home",
+      "absent",
+      "missed delivery",
+      "failed delivery"
+    ]
+  },
+  {
+    "id": "D-06",
+    "category": "delivery",
+    "question": "My package arrived damaged.",
+    "answer": "Take photos of the parcel and the item, then contact support within 48 hours of delivery with your order number so we can arrange a replacement or refund.",
+    "keywords": [
+      "damaged",
+      "broken",
+      "torn",
+      "crushed",
+      "kharab"
+    ]
+  },
+  {
+    "id": "T-01",
+    "category": "returns",
+    "question": "What is your return policy?",
+    "answer": "Most items can be returned within 7 days of delivery if they are unused and in their original packaging.",
+    "keywords": [
+      "return policy",
+      "return window",
+      "return days",
+      "wapsi"
+    ]
+  },
+  {
+    "id": "T-02",
+    "category": "returns",
+    "question": "How do I start a return?",
+    "answer": "Go to My Orders, select the item, choose Return and pick a reason. We will arrange a pickup or tell you where to send the item.",
+    "keywords": [
+      "start return",
+      "return request",
+      "how to return",
+      "return kaise"
+    ]
+  },
+  {
+    "id": "T-03",
+    "category": "returns",
+    "question": "Which items cannot be returned?",
+    "answer": "Perishable goods, innerwear and personalised items cannot be returned unless they arrive damaged or incorrect.",
+    "keywords": [
+      "non returnable",
+      "cannot return",
+      "exceptions"
+    ]
+  },
+  {
+    "id": "T-04",
+    "category": "returns",
+    "question": "Can I exchange an item for a different size or colour?",
+    "answer": "Exchanges for a different size or colour are possible within the return window, subject to stock availability.",
+    "keywords": [
+      "exchange",
+      "swap",
+      "different size",
+      "different colour"
+    ]
+  },
+  {
+    "id": "T-05",
+    "category": "returns",
+    "question": "I received the wrong item.",
+    "answer": "Contact support within 48 hours of delivery with photos of the item. We will arrange a replacement or refund at no cost to you.",
+    "keywords": [
+      "wrong item",
+      "incorrect",
+      "different product",
+      "ghalat"
+    ]
+  },
+  {
+    "id": "T-06",
+    "category": "returns",
+    "question": "Who pays for return shipping?",
+    "answer": "Return shipping is free if the item is damaged, defective or incorrect. For other returns a pickup fee may apply.",
+    "keywords": [
+      "return shipping",
+      "return fee",
+      "return charges",
+      "pickup fee"
+    ]
+  },
+  {
+    "id": "R-01",
+    "category": "refunds",
+    "question": "How do I get a refund?",
+    "answer": "Once your return is approved and received, the refund is started automatically to your original payment method. You do not need to make a separate request.",
+    "keywords": [
+      "refund",
+      "money back",
+      "paisa wapas",
+      "refund kaise"
+    ]
+  },
+  {
+    "id": "R-02",
+    "category": "refunds",
+    "question": "Will I get a refund for a cancelled order?",
+    "answer": "Yes. Orders cancelled before shipping are refunded in full to the original payment method.",
+    "keywords": [
+      "cancelled refund",
+      "cancel order refund"
+    ]
+  },
+  {
+    "id": "R-03",
+    "category": "refunds",
+    "question": "Can I get store credit instead of a refund?",
+    "answer": "Yes. Choose store credit when you return an item and it will be added to your account.",
+    "keywords": [
+      "store credit",
+      "wallet credit",
+      "credit instead"
+    ]
+  },
+  {
+    "id": "R-04",
+    "category": "refunds",
+    "question": "How long does a refund take?",
+    "answer": "Refunds usually reach your account within 5 to 7 working days after we receive the returned item. Your bank may take a little longer to show it.",
+    "keywords": [
+      "refund time",
+      "refund kab",
+      "how long refund",
+      "refund kitne din",
+      "kab",
+      "kab tak"
+    ]
+  },
+  {
+    "id": "R-05",
+    "category": "refunds",
+    "question": "Why have I not received my refund yet?",
+    "answer": "First check that 7 working days have passed since we received the item, then check your bank statement. If it is still missing, contact support with your order number and return ID.",
+    "keywords": [
+      "refund not received",
+      "refund missing",
+      "refund nahi aya",
+      "pending refund"
+    ]
+  },
+  {
+    "id": "R-06",
+    "category": "refunds",
+    "question": "Are delivery fees refundable?",
+    "answer": "Delivery fees are refunded only if the whole order is cancelled before shipping or if the item was incorrect or damaged.",
+    "keywords": [
+      "delivery fee refund",
+      "shipping refund",
+      "shipping charges refund"
+    ]
+  },
+  {
+    "id": "R-07",
+    "category": "refunds",
+    "question": "Where does my refund go?",
+    "answer": "Refunds go back to your original payment method. For cash on delivery orders we refund to a bank account or wallet that you provide.",
+    "keywords": [
+      "refund method",
+      "refund account",
+      "cod refund",
+      "refund destination"
+    ]
+  }
+]

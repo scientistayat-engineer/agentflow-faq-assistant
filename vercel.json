@@ -1,0 +1,6 @@
+{
+  "outputDirectory": "frontend",
+  "functions": {
+    "api/*.py": { "includeFiles": "backend/**" }
+  }
+}

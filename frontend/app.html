@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgentFlow – Support desk</title>
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand"><img src="assets/logo.svg" alt="" width="30" height="30">AgentFlow</div>
+    <nav class="nav" aria-label="Main">
+      <button class="on" data-view="desk">Support desk</button>
+      <button data-view="analytics">Analytics</button>
+      <button data-view="kb">Knowledge base</button>
+      <button data-view="history">Chat history</button>
+    </nav>
+    <div class="sidefoot">
+      <div class="status">Agents are running<br>Classifier, Knowledge, Response</div>
+      <button class="btn" id="logout" type="button">Sign out</button>
+    </div>
+  </aside>
+  <main>
+    <header class="top">
+      <div><h1 id="viewTitle">Support desk</h1><p id="viewSub">Every answer is grounded in your FAQ knowledge base.</p></div>
+      <div class="tools">
+        <button class="btn" id="theme" type="button" aria-label="Toggle dark mode">Dark mode</button>
+        <span class="avatar" id="avatar" title="Account">U</span>
+      </div>
+    </header>
+
+    <section id="view-desk">
+      <div class="banner">
+        <div><span class="k" style="color:#E0E1FF">Live agents</span><h2>Fast answers, never guessed.</h2><p>Each question is classified, matched to your FAQ, and answered only from what is found.</p></div>
+        <div class="live"><div><i></i>FAQ Classifier<span>Active</span></div><div><i></i>Knowledge Agent<span>Active</span></div><div><i></i>Response Agent<span>Active</span></div></div>
+      </div>
+      <div class="stats" id="stats" style="margin-top:20px"></div>
+      <div class="cols" style="margin-top:20px">
+        <div class="card chat">
+          <div class="chips" id="chips"></div>
+          <div class="msgs" id="msgs" aria-live="polite"><div class="empty" id="empty">Ask a question about orders, payments, delivery, returns or refunds.</div></div>
+          <form class="ask" id="askForm">
+            <label for="q" style="position:absolute;left:-9999px">Your question</label>
+            <input class="input" id="q" maxlength="500" placeholder="Ask about orders, payments, delivery or refunds" autocomplete="off" required>
+            <button class="btn" id="mic" type="button" aria-label="Voice input" hidden>Mic</button>
+            <button class="btn primary" id="send" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="col">
+          <div class="card"><div class="k" style="margin-bottom:14px">Questions by category</div><div id="cats"></div></div>
+          <div class="card human"><div class="k" style="margin-bottom:8px">Needs a human</div><ul id="human"></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-analytics" hidden>
+      <div class="grid2">
+        <div class="card"><div class="k" style="margin-bottom:14px">Questions in the last 7 days</div><div class="vol" id="volume"></div></div>
+        <div class="card"><div class="k" style="margin-bottom:14px">Answered from FAQ vs sent to humans</div><div id="resolution"></div></div>
+        <div class="card"><div class="k" style="margin-bottom:14px">Customer feedback</div><div id="feedback"></div></div>
+        <div class="card"><div class="k" style="margin-bottom:14px">Questions by category</div><div id="cats2"></div></div>
+      </div>
+    </section>
+
+    <section id="view-kb" hidden>
+      <div class="ask" style="margin-bottom:12px"><label for="kbSearch" style="position:absolute;left:-9999px">Search FAQs</label><input class="input" id="kbSearch" type="search" placeholder="Search the knowledge base"></div>
+      <div class="chips" id="kbChips" style="margin-bottom:14px"></div>
+      <div class="list" id="kbList"></div>
+    </section>
+
+    <section id="view-history" hidden><div class="list" id="historyList"></div></section>
+  </main>
+</div>
+<script type="module" src="js/theme.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgentFlow – Sign in</title>
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="split">
+  <section class="hero">
+    <div class="orb" style="width:260px;height:260px;background:#5B5FEF;opacity:.45;top:-60px;right:-40px"></div>
+    <div class="orb" style="width:220px;height:220px;background:#F2674A;opacity:.3;bottom:80px;left:-60px;animation-delay:2s"></div>
+    <div class="brand"><img src="assets/logo.svg" alt="" width="36" height="36">AgentFlow</div>
+    <div>
+      <h1>Support answers your customers can <span class="grad">trust.</span></h1>
+      <p>Three specialist AI agents sort the question, search your FAQ base, and reply only from what they find.</p>
+    </div>
+    <div class="agents">
+      <div class="agent"><b style="background:#8E94FF">1</b><div><strong>FAQ Classifier</strong><small>Finds the topic of the question</small></div></div>
+      <div class="agent"><b style="background:#F2674A">2</b><div><strong>Knowledge Agent</strong><small>Searches the FAQ knowledge base</small></div></div>
+      <div class="agent"><b style="background:#F4F1EA">3</b><div><strong>Response Agent</strong><small>Replies from facts, never guesses</small></div></div>
+    </div>
+  </section>
+  <section class="formside">
+    <div class="formcard">
+      <h2 id="title">Welcome back</h2>
+      <p class="sub" id="sub">Sign in to the support desk.</p>
+      <div class="demo" id="demo" hidden>Demo mode: Firebase is not configured yet, so any email and password will work.</div>
+      <div class="tabs" role="tablist">
+        <button type="button" class="on" data-mode="signin">Sign in</button>
+        <button type="button" data-mode="signup">Create account</button>
+      </div>
+      <div class="err" id="error" role="alert" hidden></div>
+      <form id="authForm" novalidate>
+        <div class="field"><label for="email">Email</label><input class="input" id="email" type="email" autocomplete="email" placeholder="name@company.com" required></div>
+        <div class="field"><label for="password">Password</label><input class="input" id="password" type="password" autocomplete="current-password" placeholder="At least 6 characters" required></div>
+        <button class="btn primary w100" id="submit" type="submit">Sign in</button>
+      </form>
+      <p class="or">or</p>
+      <button class="btn w100" id="google" type="button">Continue with Google</button>
+    </div>
+  </section>
+</div>
+<script type="module" src="js/theme.js"></script>
+<script type="module" src="js/login.js"></script>
+</body>
+</html>
